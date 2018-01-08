@@ -1,0 +1,139 @@
+.icon-checklist:before {
+  content: "\f0bd";
+  border: 3px solid #D8D8D8;
+  border-radius: 100px;
+  padding: .4em;
+  color: #A4A4A4;
+  background-color: white;
+}
+
+.icon-credit-card2:before {
+  content: "\f16f";
+  border: 3px solid #D8D8D8;
+  border-radius: 100px;
+  padding: .4em;
+  color: white;
+  background-color: #610B0B;
+}
+
+.pagamentos-container{
+	width: 50%;
+	border: 1px solid #D8D8D8;
+	margin: auto;
+	border-radius: 5px;
+	margin-bottom: 3em;
+}
+
+.titulo-pag{
+	height: 2em;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.titulo-pag p{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+.pag-options{
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.total-pag{
+	font-size: 1.2em;
+	font-family: arial;
+	height: 2em;
+	margin-left: 76%;
+	margin-top: 4%;
+}
+
+.pag-options p{
+	font-family: arial;
+	color: gray;
+	font-weight: bold;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+
+.div-img .img-pag{
+	width: 14em;
+	height: 5em;
+	display: flex;
+}
+
+.div-img{
+	width: 98%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 1em;
+    border-bottom: 1px solid #D8D8D8;
+    padding-left: 1em;
+}
+
+.continuar{
+	width: 13em;
+	background-color: #0B3B0B;
+	font-size: 1.3em;
+	height: 2.5em;
+	border: none;
+	color: white;
+	border: 1px solid black;
+	cursor: pointer;
+	box-shadow: 0 0 10px black;
+	text-shadow: 0 0 10px black;
+	margin-bottom: 2em;
+	margin-left: 40%;
+}
+
+.left-pag img{
+	width: 12em;
+}
+
+.left-pag{
+	width: 14em;
+	display: flex;
+	align-items: center;
+}
+
+.rigth-pag img{
+	width: 3em;
+	height: 2em;
+	margin-right: .2em;
+	border: 1px solid #D8D8D8;
+	
+}
+
+.rigth-pag{
+	display: flex;
+	width: 15em;
+    justify-content: space-between;
+    margin-right: 1em;
+}
+
+.pag-message{
+	height: 14em;
+	width: 100%;
+	background-color: #fafafa;
+	color: #D8D8D8;;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+}
+
+.icon-browser3:before {
+  content: "\f0cf";
+  font-size: 8em;
+  color: #BDBDBD;
+}
+
+.message-pag{
+	color: #BDBDBD;
+	width: 30em;
+	line-height: 1.4em;
+}

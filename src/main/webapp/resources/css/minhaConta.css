@@ -1,0 +1,169 @@
+.title-account{
+	width: 85%;
+	margin: auto;
+	margin-top: 1em;
+}
+
+
+.title-account p{
+	font: 25px Tahoma,Arial,sans-serif;
+	color: #1d3467;
+	font-size: 1.5em;
+}
+
+.container-account{
+	display: flex;
+	width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    justify-content: space-around;
+    margin-bottom: 6em;
+}
+
+.menu-account{
+	display: flex;
+	flex-flow: column;
+	width: 20%;
+	height: 17em;
+	border: 1px solid #E6E6E6;
+	justify-content: space-around;
+}
+
+.account-user-menu{
+	display: flex;
+	width: 85%;
+	margin: auto;
+	align-items: baseline;
+}
+
+.icon-user-account:before{
+  content: "\f007";
+  background-color: #8A0808;
+  color: #F2F2F2;
+  border-radius: 50%;
+  padding-left: 0.4em;
+  padding-right: .4em;
+  padding-bottom: .2em;
+  padding-top: .2em;
+  font-size: 1.3em
+  
+}
+
+.icon-box-menu:before{
+  content: "\e901";	
+  background-color: #8A0808;
+  color: white;
+  border-radius: 50%;
+  padding-left: 0.4em;
+  padding-right: .4em;
+  padding-bottom: .2em;
+  padding-top: .2em;
+  font-size: 1.3em
+}
+
+.icon-location:before{
+  content: "\e9b7";
+  background-color: #8A0808;
+  color: white;
+  border-radius: 50%;
+  padding-left: 0.4em;
+  padding-right: .4em;
+  padding-bottom: .2em;
+  padding-top: .2em;
+  font-size: 1.3em
+}
+
+.icon-key3-account:before{
+  content: "\f2fd";
+  background-color: #8A0808;
+  color: white;
+  border-radius: 50%;
+  padding-left: 0.4em;
+  padding-right: .4em;
+  padding-bottom: .2em;
+  padding-top: .2em;
+  font-size: 1.3em
+}
+
+.icon-email-account:before{
+  content: "\e904";
+  background-color: #8A0808;
+  color: white;
+  border-radius: 50%;
+  padding-left: 0.4em;
+  padding-right: .4em;
+  padding-bottom: .2em;
+  padding-top: .2em;
+  font-size: 1.3em
+}
+
+.account-user-menu p{
+  font-family: Helvetica, sans-serif;
+  color: #707070;
+  margin-left: .5em;
+  font-size: .9em; 	
+}
+
+.details-menu-account{
+	width: 77%;
+	border: 1px solid #E6E6E6;
+	height: 22em;
+	
+}
+
+.cotainer-account-details{
+	display: flex;
+	flex-flow: column;
+	height: 70%;
+	margin-left: 2em;
+	justify-content: space-evenly;
+}
+
+.title-account-user{
+	font-family: Arial,sans-serif;
+    color: #1d3467;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text-padrao-account{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #6f6f6f;
+	
+}
+
+.edit-account-user{
+	border: none;
+	margin-left: 2.5em;
+	width: 10em;
+    height: 3.5em;
+    color: white;
+    background-color: #425c96;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+}
+
+.edit-account-password{
+	border: none;
+	margin-left: 2.5em;
+	width: 10em;
+    height: 3.5em;
+    color: white;
+    background-color: #425c96;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+}
+
+.infor-user-account{
+	display: flex;
+	width: 40%;
+}
+
+.inform-details-account{
+	font-family: sans-serif;
+	margin-left: 1em;
+}

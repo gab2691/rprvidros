@@ -1,0 +1,231 @@
+.cadastrar{
+	cursor: pointer;
+	width: 60%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	height: 4em;
+	background-color: #8A0808;
+	box-shadow: inset 0px -8px 6px #610B0B;
+	
+}
+
+.cadastrar .botao-cadastro{
+	border: none;
+	background-color: #8A0808;
+	font-size: 2em;
+	color: white;
+	margin: auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	cursor: pointer;
+}
+
+.botao-cadastro .icon-arrow-right:before {
+  content: "\f061";
+  font-size: .6em;
+}
+.entre-em-contato .container-cadastro{
+	margin: auto;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	
+}
+
+
+.icon-key2:before {
+  content: "\e9db";
+  font-size: 2.4em;	
+  background-color: #8A0808;
+  color: white;
+  padding: .3em;
+  text-shadow: 0 0 10px black;
+  border-radius: 2px;
+  box-shadow: 0 0 5px black;
+}
+
+.icon-location2:before {
+  content: "\e9f2";
+  font-size: 2.4em;	
+  background-color: #8A0808;
+  color: white;
+  padding: .3em;
+  text-shadow: 0 0 10px black;
+  border-radius: 2px;
+  box-shadow: 0 0 5px black;
+  padding-left: .3em;
+}
+
+.icon-building:before {
+  content: "\f1ad";
+  font-size: 2.4em;	
+  background-color: #8A0808;
+  color: white;
+  padding: .3em;
+  text-shadow: 0 0 10px black;
+  border-radius: 2px;
+  box-shadow: 0 0 5px black;
+  padding-left: .5em;
+}
+
+.icon-street-view:before {
+  content: "\f21d";
+  font-size: 2.4em;	
+  background-color: #8A0808;
+  color: white;
+  padding: .3em;
+  text-shadow: 0 0 10px black;
+  border-radius: 2px;
+  box-shadow: 0 0 5px black;
+  padding-left: .5em;
+}
+
+.icon-bell:before {
+  content: "\f0f3";
+  font-size: 2.4em;	
+  background-color: #8A0808;
+  color: white;
+  padding: .3em;
+  text-shadow: 0 0 10px black;
+  border-radius: 2px;
+  box-shadow: 0 0 5px black;
+}
+
+.icon-milestone:before {
+  content: "\f310";
+  font-size: 2.4em;	
+  background-color: #8A0808;
+  color: white;
+  padding: .3em;
+  text-shadow: 0 0 10px black;
+  border-radius: 2px;
+  box-shadow: 0 0 5px black;
+  padding-left: .5em; 
+
+}
+.full-div .titulo-cadastro{
+	background-color: white;
+	font-size: 2.5em;
+	color: black;
+	height: 
+	
+}
+
+.full-div{
+	display: flex;
+	flex-flow: column;
+	box-shadow: 0 30px 20px black;
+	height: 23em;
+	justify-content: space-around;
+	width: 34em;
+	padding: 1em;
+	margin: 3em;
+	border-radius: 4px;
+	position: absolute;
+	background-color: white;
+	left: 25%;
+	opacity: 0;
+	transform: scale(0);
+}
+
+.full-div:before{
+	content: "";
+	width: 94%;
+	border: 1px solid rgba(15,15,15,.6);
+	position: absolute;
+	top: 13%;
+}
+
+.container-cadastro .form-cadastro{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 15em;
+	width: 100%;
+}
+
+
+.cadastro-divs .icon-cadastro:before {
+  content: "\f007";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.5em;
+}
+
+.cadastro-divs .icon-key3:before{
+  content: "\f2fd";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.2em;
+} 
+
+.cadastro-divs .icon-phone:before {
+  content: "\f095";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.2em;
+}
+
+.cadastro-divs .icon-milestone2:before {
+  content: "\f310";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.2em;
+}
+
+.cadastro-divs  .icon-building-o:before {
+  content: "\f0f7";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.2em;
+   
+}
+
+.cadastro-divs .icon-location22:before {
+  content: "\e9f2";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.2em;
+}
+
+
+.cadastro-divs .icon-street-view1:before {
+  content: "\f21d";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.2em;
+}
+
+.cadastro-divs .icon-bell-o:before {
+  content: "\f0a2";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.2em;
+}
+
+.cadastro-divs .icon-envelope22:before{
+  content: "\e903";
+  color: #A4A4A4;
+  background-color: white;
+  font-size: 1.5em;
+}
+
+.cadastro-divs{
+	display: flex;
+	border: 1px black solid;
+	height: 2.2em;
+	width: 16em;
+	align-items: center;
+	border-radius: 5px;
+	justify-content: space-around;
+}
+
+.inputs{
+	border: none;
+	width: 16em;
+	font-family: 'Source Sans Pro', sans-serif;
+	outline: 0;
+}
+
+

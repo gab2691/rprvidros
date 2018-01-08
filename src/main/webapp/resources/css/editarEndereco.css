@@ -1,0 +1,12 @@
+.details-menu-account1{
+	width: 77%;
+	border: 1px solid #E6E6E6;
+	height: 30em;
+}
+
+.infor-user-account1{
+	display: flex;
+	width: 43%;
+	justify-content: space-between;
+	align-items: baseline;
+}

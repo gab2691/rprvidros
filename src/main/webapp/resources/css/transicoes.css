@@ -1,0 +1,85 @@
+.car-fix{
+	transform: scale(1);
+    transition: transform .25s;
+    transform-origin: top right;
+	opacity: 1;
+}
+
+.img-status-toggle{
+	transform: scale(1);
+    transition: transform .25s;
+    transform-origin: top;
+	opacity: 1;
+	
+}
+
+.height-toggle{
+	height: 14.3em;
+
+}
+
+.show-login{
+	transform: scale(1);
+    transition: all .3s ease;
+    transform-origin: top;
+	opacity: 1;
+	display: flex;
+}
+
+.color-car{
+	color: black;
+	transition: transform 5.25s;
+}
+
+.car-fix1{
+	transform: scale(0);
+    transition: transform .25s;
+    transform-origin: top right;
+	opacity: 1;
+}
+
+
+.divs-shadowws{
+	box-shadow: inset 0 0 18px #cc8400;
+	transition: all .3s ease;
+	
+}
+
+.collor-buttom-change{
+	background-color: #5858FA;
+	transition: all .3s ease;
+}
+
+.color-categoria{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-conti{
+	background-color: #0B3B0B;
+	color: white;
+	border: 1px solid black;
+	transition: all 1s linear;
+	opacity: 1;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.empty-car{
+	font-size: 1.3em;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+.empty-ped{
+	font-size: 2em;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+.wrong-password{
+	border: 2px solid red;
+}
+
+.writhe-password{
+	border: 2px solid green;
+}
